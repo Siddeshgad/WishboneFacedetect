@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "asdf",
+    "database": "facedetect",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pool": {
+      "max": 256,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": null,
+    "password": null,
+    "database": null,
+    "host": null,
+    "dialect": "mysql",
+    "pool": {
+      "max": 256,
+      "min": 0,
+      "idle": 10000
+    }
+  }
+}

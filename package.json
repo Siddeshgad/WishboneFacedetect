@@ -1,0 +1,26 @@
+{
+  "name": "facedetect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Siddesh Gad",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "express-validator": "^2.19.1",
+    "handlebars": "^4.0.5",
+    "hat": "0.0.3",
+    "hbs": "^4.0.0",
+    "http-status": "^0.2.0",
+    "mysql": "^2.10.2",
+    "request": "^2.69.0",
+    "sequelize": "^3.18.0",
+    "twitter": "^1.2.5"
+  }
+}
